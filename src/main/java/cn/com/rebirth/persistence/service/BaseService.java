@@ -2,7 +2,7 @@
  * Copyright (c) 2005-2012 www.china-cti.com All rights reserved
  * Info:rebirth-persistence BaseService.java 2012-7-10 16:04:55 l.xue.nong$$
  */
-package cn.com.summall.persistence.service;
+package cn.com.rebirth.persistence.service;
 
 import java.io.Serializable;
 import java.util.List;
@@ -16,8 +16,8 @@ import org.springframework.transaction.annotation.Transactional;
 
 import cn.com.rebirth.commons.Page;
 import cn.com.rebirth.commons.PageRequest;
-import cn.com.summall.persistence.Specification;
-import cn.com.summall.persistence.dao.BaseDao;
+import cn.com.rebirth.persistence.Specification;
+import cn.com.rebirth.persistence.dao.BaseDao;
 
 /**
  * The Class BaseService.

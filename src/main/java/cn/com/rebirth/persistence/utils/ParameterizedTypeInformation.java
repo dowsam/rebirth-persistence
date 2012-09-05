@@ -2,7 +2,7 @@
  * Copyright (c) 2005-2012 www.summall.com.cn All rights reserved
  * Info:summall-persistence ParameterizedTypeInformation.java 2012-2-11 21:29:56 l.xue.nong$$
  */
-package cn.com.summall.persistence.utils;
+package cn.com.rebirth.persistence.utils;
 
 import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
@@ -13,7 +13,7 @@ import java.util.Set;
 
 import org.springframework.core.GenericTypeResolver;
 
-import cn.com.summall.persistence.TypeInformation;
+import cn.com.rebirth.persistence.TypeInformation;
 
 /**
  * The Class ParameterizedTypeInformation.

@@ -2,7 +2,7 @@
  * Copyright (c) 2005-2012 www.summall.com.cn All rights reserved
  * Info:summall-persistence Specifications.java 2012-2-12 13:09:21 l.xue.nong$$
  */
-package cn.com.summall.persistence;
+package cn.com.rebirth.persistence;
 
 import javax.persistence.criteria.CriteriaBuilder;
 import javax.persistence.criteria.CriteriaQuery;

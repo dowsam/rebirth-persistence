@@ -5,7 +5,7 @@
 	<parent>
 		<groupId>cn.com.rebirth</groupId>
 		<artifactId>rebirth-parent</artifactId>
-		<version>0.0.1.RELEASE</version>
+		<version>0.0.2.RC5.SNAPSHOT</version>
 	</parent>
 	<artifactId>rebirth-persistence</artifactId>
 	<packaging>jar</packaging>

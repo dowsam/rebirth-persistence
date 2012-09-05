@@ -2,13 +2,13 @@
  * Copyright (c) 2005-2012 www.summall.com.cn All rights reserved
  * Info:summall-persistence GenericArrayTypeInformation.java 2012-2-11 21:29:51 l.xue.nong$$
  */
-package cn.com.summall.persistence.utils;
+package cn.com.rebirth.persistence.utils;
 
 import java.lang.reflect.Array;
 import java.lang.reflect.GenericArrayType;
 import java.lang.reflect.Type;
 
-import cn.com.summall.persistence.TypeInformation;
+import cn.com.rebirth.persistence.TypeInformation;
 
 /**
  * The Class GenericArrayTypeInformation.

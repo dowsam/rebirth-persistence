@@ -2,7 +2,7 @@
  * Copyright (c) 2005-2012 www.summall.com.cn All rights reserved
  * Info:summall-persistence TypeVariableTypeInformation.java 2012-2-11 21:28:59 l.xue.nong$$
  */
-package cn.com.summall.persistence.utils;
+package cn.com.rebirth.persistence.utils;
 
 import static org.springframework.util.ObjectUtils.nullSafeEquals;
 import static org.springframework.util.ObjectUtils.nullSafeHashCode;

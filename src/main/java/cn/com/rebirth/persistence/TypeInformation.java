@@ -2,7 +2,7 @@
  * Copyright (c) 2005-2012 www.summall.com.cn All rights reserved
  * Info:summall-persistence TypeInformation.java 2012-2-11 21:19:29 l.xue.nong$$
  */
-package cn.com.summall.persistence;
+package cn.com.rebirth.persistence;
 
 import java.lang.reflect.Constructor;
 import java.lang.reflect.Method;

@@ -2,7 +2,7 @@
  * Copyright (c) 2005-2012 www.summall.com.cn All rights reserved
  * Info:summall-persistence BaseDao.java 2012-2-10 13:31:24 l.xue.nong$$
  */
-package cn.com.summall.persistence.dao;
+package cn.com.rebirth.persistence.dao;
 
 import java.io.Serializable;
 import java.lang.reflect.Field;
@@ -48,10 +48,10 @@ import cn.com.rebirth.commons.PageRequest;
 import cn.com.rebirth.commons.PageRequest.Direction;
 import cn.com.rebirth.commons.PageRequest.Order;
 import cn.com.rebirth.commons.PageRequest.Sort;
-import cn.com.summall.persistence.LockMetadataProvider;
-import cn.com.summall.persistence.Specification;
-import cn.com.summall.persistence.query.PersistenceProvider;
-import cn.com.summall.persistence.utils.QueryUtils;
+import cn.com.rebirth.persistence.LockMetadataProvider;
+import cn.com.rebirth.persistence.Specification;
+import cn.com.rebirth.persistence.query.PersistenceProvider;
+import cn.com.rebirth.persistence.utils.QueryUtils;
 
 // TODO: Auto-generated Javadoc
 /**

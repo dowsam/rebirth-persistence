@@ -2,7 +2,7 @@
  * Copyright (c) 2005-2012 www.summall.com.cn All rights reserved
  * Info:summall-persistence QueryUtils.java 2012-2-11 21:30:06 l.xue.nong$$
  */
-package cn.com.summall.persistence.utils;
+package cn.com.rebirth.persistence.utils;
 
 import static java.util.regex.Pattern.CASE_INSENSITIVE;
 import static java.util.regex.Pattern.compile;
@@ -28,7 +28,7 @@ import org.springframework.util.Assert;
 
 import cn.com.rebirth.commons.PageRequest.Order;
 import cn.com.rebirth.commons.PageRequest.Sort;
-import cn.com.summall.persistence.mapping.PropertyPath;
+import cn.com.rebirth.persistence.mapping.PropertyPath;
 
 /**
  * The Class QueryUtils.

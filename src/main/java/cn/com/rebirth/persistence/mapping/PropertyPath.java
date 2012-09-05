@@ -2,7 +2,7 @@
  * Copyright (c) 2005-2012 www.summall.com.cn All rights reserved
  * Info:summall-persistence PropertyPath.java 2012-2-11 21:16:27 l.xue.nong$$
  */
-package cn.com.summall.persistence.mapping;
+package cn.com.rebirth.persistence.mapping;
 
 import java.util.ArrayList;
 import java.util.Iterator;
@@ -13,8 +13,8 @@ import java.util.regex.Pattern;
 import org.springframework.util.Assert;
 import org.springframework.util.StringUtils;
 
-import cn.com.summall.persistence.TypeInformation;
-import cn.com.summall.persistence.utils.ClassTypeInformation;
+import cn.com.rebirth.persistence.TypeInformation;
+import cn.com.rebirth.persistence.utils.ClassTypeInformation;
 
 /**
  * The Class PropertyPath.

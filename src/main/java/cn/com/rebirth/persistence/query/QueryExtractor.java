@@ -1,4 +1,4 @@
-package cn.com.summall.persistence.query;
+package cn.com.rebirth.persistence.query;
 
 import javax.persistence.Query;
 

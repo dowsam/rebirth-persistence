@@ -2,7 +2,7 @@
  * Copyright (c) 2005-2012 www.summall.com.cn All rights reserved
  * Info:summall-persistence TypeDiscoverer.java 2012-2-11 21:24:50 l.xue.nong$$
  */
-package cn.com.summall.persistence.utils;
+package cn.com.rebirth.persistence.utils;
 
 import static org.springframework.util.ObjectUtils.*;
 
@@ -24,7 +24,8 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.core.GenericTypeResolver;
 import org.springframework.util.Assert;
 import org.springframework.util.ReflectionUtils;
-import cn.com.summall.persistence.TypeInformation;
+
+import cn.com.rebirth.persistence.TypeInformation;
 
 /**
  * The Class TypeDiscoverer.

@@ -2,7 +2,7 @@
  * Copyright (c) 2005-2012 www.summall.com.cn All rights reserved
  * Info:summall-persistence PersistenceProvider.java 2012-2-12 10:48:46 l.xue.nong$$
  */
-package cn.com.summall.persistence.query;
+package cn.com.rebirth.persistence.query;
 
 
 import javax.persistence.EntityManager;

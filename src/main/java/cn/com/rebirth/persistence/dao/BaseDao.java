@@ -2,7 +2,7 @@
  * Copyright (c) 2005-2012 www.summall.com.cn All rights reserved
  * Info:summall-persistence BaseDao.java 2012-2-10 15:42:04 l.xue.nong$$
  */
-package cn.com.summall.persistence.dao;
+package cn.com.rebirth.persistence.dao;
 
 import java.util.List;
 import java.util.Map;
@@ -48,7 +48,7 @@ public class BaseDao extends BaseJpaDao {
 			page.setTotalItems(totalCount);
 		}
 		if (pageRequest.getSort() != null) {
-			qlString = setOrderParameterToql(qlString, pageRequest);
+			qlString = setOrderParameterToql(removeOrders(qlString), pageRequest);
 		}
 		Query q = createQuery(qlString, values);
 
@@ -80,7 +80,7 @@ public class BaseDao extends BaseJpaDao {
 		}
 
 		if (pageRequest.getSort() != null) {
-			hql = setOrderParameterToql(hql, pageRequest);
+			hql = setOrderParameterToql(removeOrders(hql), pageRequest);
 		}
 
 		Query q = createQuery(hql, values);

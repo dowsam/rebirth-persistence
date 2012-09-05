@@ -2,7 +2,7 @@
  * Copyright (c) 2005-2012 www.summall.com.cn All rights reserved
  * Info:summall-persistence ClassTypeInformation.java 2012-2-11 21:25:55 l.xue.nong$$
  */
-package cn.com.summall.persistence.utils;
+package cn.com.rebirth.persistence.utils;
 
 import java.lang.ref.Reference;
 import java.lang.ref.WeakReference;
@@ -20,7 +20,7 @@ import java.util.WeakHashMap;
 import org.springframework.core.GenericTypeResolver;
 import org.springframework.util.Assert;
 
-import cn.com.summall.persistence.TypeInformation;
+import cn.com.rebirth.persistence.TypeInformation;
 
 /**
  * The Class ClassTypeInformation.
